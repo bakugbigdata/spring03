@@ -1,4 +1,6 @@
 .classpath  
+.cache-main
+.cache-tests
 .git  
 .project  
 .settings  
