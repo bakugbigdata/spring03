@@ -1,8 +1,17 @@
 package com.example
 
+import org.apache.commons.logging.Log
+import org.apache.commons.logging.LogFactory
+
 object TestScala {
-   def main(args: Array[String]): Unit = {
+  
+  var log = LogFactory.getLog(TestScala.getClass.getName)
+  
+  def main(args: Array[String]): Unit = {
       println("Scala execution test...");
       
+      log.info("##############################")
+      log.info("TestScala Commons logging.....")
+      log.info("##############################")
    }
 }
